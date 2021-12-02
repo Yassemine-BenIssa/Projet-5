@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+logo{
+flex-wrap: wrap;
+}
+h1{
+    color: rgba(190, 179, 139, 0.973) ;
+    text-align: center;
+}
+.P1{
+    color: rgba(104, 85, 25, 0.973);
+    text-align: center;
+}
+.disc{
+    color: rgba(97, 77, 10, 0.973);
+    font-size: 20px;
+}
+.container{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+.container > div{
+    text-align: center;
+}
+.pic{
+    flex-wrap: wrap;
+    border: #f1f4f5 5px solid;
+    justify-content: space-around;
+    width: 210px;
+    border-radius: 10%;
+    height: 232px;
+
+}
+div.pic:hover{
+    border-radius: 15%;
+    border: rgba(104, 85, 25, 0.973) 10px solid;
+}
+form{
+    margin-top: -532px;
+    margin-left: 155px;
+    font-size: 30px;
+    background-color: transparent;
+    position: absolute;
+    padding: 36px;
+    border-radius: 18px;
+    height: 215px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+#bt{
+    font-size: 18px;
+    text-align: center;
+    background-color: rgba(104, 85, 25, 0.973);
+    padding: 10px;
+    margin: 4px 0px 0px 59px;
+}
+div >button:hover{
+    border: 2px  rgb(255, 255, 255) solid;
+    font-size: 50px;
+}
+.container2{
+    background-color: rgba(104, 85, 25, 0.973);
+    
+    flex-wrap: wrap ;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    background-color: rgba(104, 85, 25, 0.973);
+}
+.items{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    background-color:rgba(104, 85, 25, 0.973);
+}
+.items li{
+    margin-left: 80px;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}
