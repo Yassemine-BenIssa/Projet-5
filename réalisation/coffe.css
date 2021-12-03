@@ -91,8 +91,7 @@ div >button:hover{
     flex-direction: row;
     color: white;
     background-color: rgba(104, 85, 25, 0.973);
-    position: relative;
-    top : 200px;
+    
 }
 .items{
     width: 100%;
